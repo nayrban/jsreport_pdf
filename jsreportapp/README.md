@@ -1,6 +1,10 @@
+## [jsreport package](https://www.npmjs.com/package/jsreport)
+
 ## Steps to run the jsreport server
 
 * npm install -g jsreport-cli
+
+Goto this folder and run
 * npm install
 * jsreport start
 
