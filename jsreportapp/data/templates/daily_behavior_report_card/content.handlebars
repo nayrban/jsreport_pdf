@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <style>
+        {#asset daily_behavior_report_card.css @encoding=utf8}
+    </style>
+</head>
+<body>
+<div class="header">
+  <div class="sub-header "><label>Student Name:</label> <span>{{student.name}} {{student.lastname}}</span></div>
+  <div class="sub-header text-right"><label>Date:</label> <span>{{now}}</span></div>
+</div>
+<div class="content">
+  <div class="section">
+    <table id="scales-table">
+      <thead>
+      <tr>
+        <th>School-Wide Expectation</th>
+        <th>5</th>
+        <th>4</th>
+        <th>3</th>
+        <th>2</th>
+        <th>1</th>
+      </tr>
+      </thead>
+      <tbody>
+        {{#each scales}}
+        <tr>
+            <td>{{schoolWide}}</td>
+           {{#each range}}
+            <td>
+                <ul>
+                    {{#each items}}
+                        <li>{{item}}</li>
+                    {{/each}}         
+                </ul>
+            </td>
+           {{/each}}
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+  <div class="section">
+    <table id="goals-table">
+      <thead>
+      <tr>
+        {{#each goals}}
+            <th>{{title}}</th>
+        {{/each}}
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        {{#each goals}}
+            <td>{{description}}</dh>
+        {{/each}}
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="footer">
+  <span>© 2018 Emergent Tree Education</span>
+  <img src="{#asset ete-logo.png @encoding=dataURI}" height="56" width="116" />
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+    "shortid": "BkHRWHj44",
+    "name": "daily_behavior_report_card",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true,
+        "width": ""
+    },
+    "folder": {
+        "shortid": "Kt0oXtb"
+    },
+    "modificationDate": {
+        "$$date": 1549661283785
+    },
+    "_id": "x7AMdhgJmgI8kXpo",
+    "$entitySet": "templates",
+    "scripts": []
+}
