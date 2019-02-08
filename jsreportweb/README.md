@@ -2,6 +2,8 @@
 
 ## [jsreport-browser-client-dist package](https://www.npmjs.com/package/jsreport-browser-client-dist)
 
+## After run the ember js command to start the application go to [pdf-report](http://localhost:4200/pdf-report)
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
