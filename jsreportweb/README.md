@@ -1,5 +1,7 @@
 # jsreportweb
 
+## [jsreport-browser-client-dist package](https://www.npmjs.com/package/jsreport-browser-client-dist)
+
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
